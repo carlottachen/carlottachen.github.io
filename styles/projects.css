@@ -1,0 +1,160 @@
+table{
+    margin: 10vw;
+    width: 35%;
+    border-radius: 5px;
+    border: solid 3px white;
+    background-color: white; 
+    padding: 2px;
+}
+
+th{
+    padding: 5%;
+    color: #322214;
+    font-size: 20px;
+}
+
+#tech-stack{
+    text-align: center;
+    padding-top: 4%;
+    text-decoration: underline;
+}
+
+#box1{
+    background-color: #93a3b1;
+}
+
+#box2{
+    padding: 5%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+iframe{
+    height: 20vw;
+    width: 100%;
+}
+
+.circle{
+    border: solid 1px #93a3b1;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+.circle:hover{
+    border-width: 3px;
+}
+
+/* Tooltip container */
+#javascript {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+#javascript .hidejavascript {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+#javascript:hover .hidejavascript {
+  visibility: visible;
+}
+
+#html {
+  position: relative;
+  display: inline-block;
+}
+
+#html .hidehtml {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#html:hover .hidehtml {
+  visibility: visible;
+}
+
+#css {
+  position: relative;
+  display: inline-block;
+}
+
+#css .hidecss {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#css:hover .hidecss {
+  visibility: visible;
+}
+
+#nodejs {
+  position: relative;
+  display: inline-block;
+}
+
+#nodejs .hidenodejs {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#nodejs:hover .hidenodejs {
+  visibility: visible;
+}
+
+#SQLdb {
+  position: relative;
+  display: inline-block;
+}
+
+#SQLdb .hideSQLdb {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#SQLdb:hover .hideSQLdb {
+  visibility: visible;
+}
