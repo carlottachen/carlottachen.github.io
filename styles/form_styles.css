@@ -1,0 +1,35 @@
+#contact-me{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    width: 50vw;
+}
+
+.form-fields{
+    margin-bottom: 4%;
+    padding: 15px;
+    border: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #4c443c;
+    background-color: #93a3b1;
+}
+
+textarea{
+    resize: none;
+}
+
+#submit-contact{
+    color: #4c443c;
+    font-size: 18px;
+}
+
+#submit-contact:hover{
+    background-color: #7c898b;
+    color: white;
+    cursor: pointer;
+}
