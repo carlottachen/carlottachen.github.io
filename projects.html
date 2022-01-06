@@ -21,6 +21,12 @@
         <a href="resume.html">Resume</a>
         <a href="javascript:void(0)" onclick="closeNav()">Projects</a>
         <a href="contacts.html">Contact</a>
+        <div id="menu-circles">
+            <a href="https://github.com/carlottachen" target="blank"><img alt="github" src="./images/github.png"
+                    class="menu-circle"></a>
+            <a href="https://www.linkedin.com/in/carlottachen/" target="blank"><img alt="linkedin"
+                    src="./images/linkedin.jpeg" class="menu-circle"></a>
+        </div>
     </div>
     <span onclick="openNav()" id="menu-text">Portfolio &#8594;</span>
 
@@ -32,47 +38,78 @@
         </div>
     </span>
 
-    <table>
-        <tr>
-            <th>Poll Site</th>
-        </tr>
-        <tr>
-            <td id="box1">
-                <iframe src="https://drive.google.com/file/d/12yxaLUblHC--ddif_x4ngcwR20HtCep0/preview"></iframe>
-            </td>
-        </tr>
-        <tr>
-            <td id="tech-stack">Tech Stack</td>
-        </tr>
-        <tr>
-            <td id="box2">
-                <div id="javascript">
-                    <img src="./images/javascript.png" class="circle" alt="javascript">
-                    <div class="hidejavascript">Javascript</div>
-                </div>
+    <!-- Table 1 -->
+    <div id="wrap-table">
+        <table>
+            <tr>
+                <th>Poll Site</th>
+            </tr>
+            <tr>
+                <td id="box1">
+                    <iframe src="https://drive.google.com/file/d/12yxaLUblHC--ddif_x4ngcwR20HtCep0/preview"></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td id="tech-stack">Tech Stack</td>
+            </tr>
+            <tr>
+                <td id="box2">
+                    <div id="javascript">
+                        <img src="./images/javascript.png" class="circle" alt="javascript">
+                        <div class="hidejavascript">Javascript</div>
+                    </div>
+                    <div id="html">
+                        <img src="./images/html.jpeg" class="circle" alt="html">
+                        <div class="hidehtml">HTML</div>
+                    </div>
+                    <div id="css">
+                        <img src="./images/css.jpeg" class="circle" alt="css">
+                        <div class="hidecss">CSS</div>
+                    </div>
+                    <div id="nodejs">
+                        <img src="./images/nodejs.png" class="circle" alt="nodejs">
+                        <div class="hidenodejs">NodeJS</div>
+                    </div>
+                    <div id="SQLdb">
+                        <img src="./images/SQLdb.jpeg" class="circle" alt="SQLdb">
+                        <div class="hideSQLdb">PostgreSQL</div>
+                    </div>
+                    <div id="vscode">
+                        <img src="./images/vscode.jpeg" class="circle" alt="SQLdb">
+                        <div class="hidevscode">VS Code</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
 
-                <div id="html">
-                    <img src="./images/html.jpeg" class="circle" alt="html">
-                    <div class="hidehtml">HTML</div>
-                </div>
-
-                <div id="css">
-                    <img src="./images/css.jpeg" class="circle" alt="css">
-                    <div class="hidecss">CSS</div>
-                </div>
-
-                <div id="nodejs">
-                    <img src="./images/nodejs.png" class="circle" alt="nodejs">
-                    <div class="hidenodejs">NodeJS</div>
-                </div>
-
-                <div id="SQLdb">
-                    <img src="./images/SQLdb.jpeg" class="circle" alt="SQLdb">
-                    <div class="hideSQLdb">PostgreSQL</div>
-                </div>
-            </td>
-        </tr>
-    </table>
+        <!-- Table 2 -->
+        <table>
+            <tr>
+                <th>C++ Project</th>
+            </tr>
+            <tr>
+                <td id="box1">
+                    <a href="https://github.com/carlottachen/LinkedList" target="_blank"><img alt="LLrepo"
+                            src="./images/LLrepo.png" class="card-img" </a>
+                </td>
+            </tr>
+            <tr>
+                <td id="tech-stack">Tech Stack</td>
+            </tr>
+            <tr>
+                <td id="box2">
+                    <div id="cplusplus">
+                        <img src="./images/c++.png" class="circle" alt="cplusplus">
+                        <div class="hidecplusplus">C++</div>
+                    </div>
+                    <div id="linux">
+                        <img src="./images/linux.jpeg" class="circle" alt="cplusplus">
+                        <div class="hidelinux">Linux</div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
 
     <script src="./js/index.js"></script>
 </body>

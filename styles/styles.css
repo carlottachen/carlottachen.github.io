@@ -140,3 +140,23 @@ hr.solid{
   from { width: 0 }
   to { width: 100% }
 }
+
+.menu-circle{
+    border: solid thin #7c898b;
+    border-radius: 50%;
+    margin: 3px;
+    height: 40px;
+    width: 45px;
+    margin-right: 20px;
+}
+
+.menu-circle:hover{
+    border-width: 3px;
+}
+
+#menu-circles{
+  display: flex;
+  justify-content: space-around;
+  height: 30vh;
+  align-items: end;
+}

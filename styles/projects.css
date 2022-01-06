@@ -1,6 +1,5 @@
 table{
-    margin: 10vw;
-    width: 35%;
+    margin: 5vw;
     border-radius: 5px;
     border: solid 3px white;
     background-color: white; 
@@ -13,30 +12,49 @@ th{
     font-size: 20px;
 }
 
+#wrap-table{
+  padding-top: 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr
+}
+
 #tech-stack{
     text-align: center;
     padding-top: 4%;
-    text-decoration: underline;
 }
 
 #box1{
     background-color: #93a3b1;
+    border: solid 1px white;
+    border-radius: 7px;
+    height: 18vw;
+    width: 100%;
 }
 
 #box2{
     padding: 5%;
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    display: flex;  
+  flex-wrap: wrap;
 }
 
 iframe{
-    height: 20vw;
+    height: 18vw;
+    width: 100%;
+}
+
+.card-img{
+    height: 18vw;
     width: 100%;
 }
 
 .circle{
     border: solid 1px #93a3b1;
+    margin: 3px;
     border-radius: 50%;
     height: 50px;
     width: 50px;
@@ -156,5 +174,71 @@ iframe{
 }
 
 #SQLdb:hover .hideSQLdb {
+  visibility: visible;
+}
+
+#cplusplus {
+  position: relative;
+  display: inline-block;
+}
+
+#cplusplus .hidecplusplus {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#cplusplus:hover .hidecplusplus {
+  visibility: visible;
+}
+
+#linux {
+  position: relative;
+  display: inline-block;
+}
+
+#linux .hidelinux {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#linux:hover .hidelinux {
+  visibility: visible;
+}
+
+#vscode {
+  position: relative;
+  display: inline-block;
+}
+
+#vscode .hidevscode {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#vscode:hover .hidevscode {
   visibility: visible;
 }
