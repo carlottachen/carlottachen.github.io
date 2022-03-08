@@ -5,7 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     width: 50vw;
 }
 
@@ -52,4 +52,40 @@ textarea{
   justify-content: space-around;
   height: 30vh;
   align-items: end;
+}
+
+#status{
+    width: 50%;
+    max-width: 500px;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    border-radius: 8px;
+}
+
+#status.success{
+    background-color: white;
+    animation: status 4s ease forwards;
+}
+
+#status.error{
+    background-color: blue;
+    color: white;
+    animation: status 4s ease forwards;
+}
+
+@keyframes status{
+    0%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    90%{
+        opacity: 1;
+        pointer-events: all;
+    }
+    100%{
+        opacity: 0;
+        pointer-events: none;
+    }
 }

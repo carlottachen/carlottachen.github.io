@@ -40,15 +40,15 @@
     </span>
 
     <section id="contact-form">
-        <form id="contact-me">
-            <input type="text" class="form-fields" id="name-field" placeholder="Name " required />
-            <input type="email" class="form-fields" id="email-field" placeholder="E-mail " required />
-            <textarea class="form-fields" rows='10' placeholder="Message "></textarea>
+        <form id="contact-me" action="https://formspree.io/f/xnqwvwaa" method="POST">
+            <input type="text" class="form-fields" id="name-field" name="name" placeholder="Your Name " required />
+            <input type="email" class="form-fields" id="email-field" name="email" placeholder="Your E-mail " required />
+            <textarea class="form-fields" rows='10' name="message" placeholder="Message " required></textarea>
 
             <button type="submit" class="form-fields" id="submit-contact">Contact Me</button>
         </form>
+        <div id="status"></div>
     </section>
-
 
     <script src="./js/index.js"></script>
 </body>

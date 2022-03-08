@@ -242,3 +242,69 @@ iframe{
 #vscode:hover .hidevscode {
   visibility: visible;
 }
+
+#swift {
+  position: relative;
+  display: inline-block;
+}
+
+#swift .hideswift {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#swift:hover .hideswift {
+  visibility: visible;
+}
+
+#cloudkit {
+  position: relative;
+  display: inline-block;
+}
+
+#cloudkit .hidecloudkit {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#cloudkit:hover .hidecloudkit {
+  visibility: visible;
+}
+
+#xcode {
+  position: relative;
+  display: inline-block;
+}
+
+#xcode .hidexcode {
+  visibility: hidden;
+  width: 120px;
+  background-color: #636564;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 2px;
+ 
+  position: absolute;
+  z-index: 1;
+}
+
+#xcode:hover .hidexcode {
+  visibility: visible;
+}
